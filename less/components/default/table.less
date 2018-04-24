@@ -1,0 +1,156 @@
+//
+// table
+// default
+// --------------------------------------------------
+.form-designer.theme-default{
+	font-size: 12px;
+	& td{
+		position: relative;
+		min-width: 20px;
+	}
+
+	& .col{
+		border-bottom:1px solid #E0E0E0;
+		border-right:1px solid #E0E0E0;
+	}
+
+	& .form-title{
+		text-align: center;
+	}
+
+	& .table{
+		width: 100%;
+		border-top:1px solid #E0E0E0;
+		border-left:1px solid #E0E0E0;
+	}
+
+	& .table-title{
+		background-color: #f4aaaa;
+		padding:10px;
+		margin:0;
+	}
+
+	& .table-field{
+		height: 20px;
+
+		&.required:before{
+			content: ' *';
+			color: red;
+		}
+
+		&.level-1{
+			background-color: #faeae6;
+		}
+		&.level-2{
+			border-right: 0px;
+		}
+		&.level-3{
+		}
+	}
+
+	& .block-outer{
+		margin: auto;
+		padding: 5px 10px;
+	}
+	& .block-border{
+		margin: auto;
+		min-height:30px;
+	//	border: 1px solid #eeeeee;
+		border: 1px solid #AAAAAA;
+		.border-radius(10px);
+		&.selected{
+			border-color: #2196F3;
+		}
+	}
+	& .block-content{
+		padding: 20px;
+	}
+	& .block-title{
+		float: left;
+		position: relative;
+		top: -0.666em;
+		left: 1em;
+		background-color: #FAFAFA;
+		font-size: 14px;
+	}
+
+	// .resize-btn{
+	// 	width: 10px;
+	// 	height: 10px;
+	// 	background-color: green;
+	// 	position: absolute;
+	// 	bottom: 0px;
+	// 	right: 0px;
+	// 	cursor: se-resize;
+	// }
+}
+
+.x-form.x-theme.default{
+	font-size: 12px;
+	color: #575765;
+	margin:0 auto;
+
+	& .x-form-title{
+		text-align: center;
+	}
+
+	& .x-table{
+		width: 100%;
+		border-top:1px solid #E0E0E0;
+		border-left:1px solid #E0E0E0;
+	}
+
+	& .x-col{
+		border-bottom:1px solid #E0E0E0;
+		border-right:1px solid #E0E0E0;
+	}
+
+	& .x-table-title{
+		background-color: #f4aaaa;
+		padding:10px;
+		margin:0;
+	}
+
+	& .x-table-field{
+		height: 20px;
+
+		&.required:before{
+			content: ' *';
+			color: red;
+		}
+
+		&.level-1{
+			background-color: #faeae6;
+		}
+		&.level-2{
+			border-right: 0px;
+		}
+		&.level-3{
+		}
+	}
+
+	& .x-block-outer{
+		margin: auto;
+		padding: 5px 10px;
+	}
+	& .x-block-border{
+		margin: auto;
+		border: 1px solid #eeeeee;
+		.border-radius(10px);
+		&.selected{
+			border-color: #2196F3;
+		}
+	}
+	& .x-block-content{
+		padding: 20px;
+		border: 1px solid #AAAAAA;
+	}
+	& .x-block-title{
+		float: left;
+		position: relative;
+		top: -0.666em;
+		left: 1em;
+		background-color: #FAFAFA;
+		font-size: 14px;
+	}
+}

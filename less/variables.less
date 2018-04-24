@@ -1,0 +1,122 @@
+@appbar-height:               40px;
+@border-radius-base:          .3em;
+
+@keystone-blue:               #1385e5;
+
+@app-primary:                 @keystone-blue;
+
+@app-danger:                  #d64242;
+@app-info:                    #0090e0;
+@app-success:                 #34c240;
+@app-warning:                 #fa9f47;
+
+@gray-base:                   #000;
+@gray-darker:                 #222;
+@gray-dark:                   #333;
+@gray:                        #666;
+@gray-light:                  #999;
+@gray-lighter:                #eee;
+
+@text-color:                  @gray-dark;
+
+@body-bg:                     #fdfdfd;
+@text-color:                  @gray-dark;
+@heading-color:               @gray-darker;
+
+@font-size-base:              14px;
+@font-size-xs:              0.8rem;
+@font-size-sm:              0.9rem;
+@font-size-lg:             1.25rem;
+
+@link-color:                  @app-primary;
+@link-hover-color:            lighten(@link-color, 10%);
+
+@border-radius-base:          .3em;
+
+@button-font-weight:          500;
+@button-padding-horizontal:   1em;
+@button-default-color:        @app-primary;
+
+@link-color:                  @app-primary;
+@link-hover-color:            lighten(@link-color, 10%);
+
+// used on inputs and buttons
+
+@component-line-height:       2.3em;
+@component-height:            2em;
+@component-padding:           1em;
+
+//input
+
+@input-bg-color:              white;
+@input-bg-disabled:           darken(@input-bg-color, 3%);
+@input-placeholder-color:     #aaa;
+
+@input-border-color:          #ccc;
+@input-border-color-hover:    darken(@input-border-color, 10%);
+@input-border-color-focus:    @app-primary;
+
+@input-padding-horizontal:    .5em;
+
+
+// Spacing
+// ------------------------------
+
+@spacing-xxs:              0.125em;
+@spacing-xs:                0.25em;
+@spacing-sm:                 0.5em;
+@spacing-md:                   1em;
+@spacing-lg:                   2em;
+@spacing-xl:                   5em;
+
+
+// Media queries breakpoints
+// ------------------------------
+
+// Extra small screen / phone
+@screen-xs:                  480px;
+@screen-xs-min:              @screen-xs;
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+
+
+// Forms
+// ------------------------------
+
+@form-animation-duration:    280ms;
+
+@form-label-color:            #777;
+@form-label-width:            180px;
+@form-help-color:             @form-label-color;
+
+@input-bg-color:              white;
+@input-bg-disabled:           darken(@input-bg-color, 3%);
+@input-placeholder-color:     #aaa;
+
+@input-border-color:          #ccc;
+@input-border-color-hover:    darken(@input-border-color, 10%);
+@input-border-color-focus:    @app-primary;
+
+@input-padding-horizontal:    .75em;
+@input-noedit-width:          180px;
+
+@control-disabled-color:      @gray-light;

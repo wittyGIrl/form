@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Preview</title>
+    <link href="easyui.css" rel="stylesheet" media="all"/>
+    <link href="color.css" rel="stylesheet" media="all"/>
+    <link href="icon.css" rel="stylesheet" media="all"/>
+  </head>
+  <body>
+    <div id='root' style="height:100%;">
+      <input class="easyui-combobox" data-options="url: '/test', data: [{text: 'java', value: 'Java'},{text: 'perl',value: 'Perl'},{text: 'ruby',value: 'Ruby'}]">
+    </div>
+
+    <script src="jquery-1.10.2.js"></script>
+    <script src="jquery.easyui.min.js"></script>
+    <script>
+      var __formData  = {lang: 'en'};
+      function __setFormData(key, data) {
+          __formData[key] = data;
+      }
+      function __getFormData(key) {
+          if (key) {
+              return __formData[key];
+          }
+          return __formData;
+      }
+    </script>
+    <script src="/static/bundle.display.js"></script>
+    <script>
+      $.context = {};
+    </script>
+  </body>
+</html>

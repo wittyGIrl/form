@@ -1,0 +1,145 @@
+//
+// table
+// simple
+// --------------------------------------------------
+.form-designer.theme-simple{
+	font-size: 12px;
+	& td{
+		position: relative;
+		min-width: 20px;
+	}
+
+	& .form-title{
+		text-align: center;
+	}
+
+	& .table{
+		width: 100%;
+		border-top:1px solid #E0E0E0;
+		border-left:1px solid #E0E0E0;
+	}
+
+	& .col{
+		border-bottom:1px solid #E0E0E0;
+		border-right:1px solid #E0E0E0;
+	}
+
+	& .table-title{
+		background-color: #f4aaaa;
+		padding:10px;
+		margin:0;
+	}
+
+	& .table-field{
+		height: 20px;
+
+		&.required:before{
+			content: ' *';
+			color: red;
+		}
+
+		&.level-1{
+			background-color: #faeae6;
+		}
+		&.level-2{
+			border-right: 0px;
+		}
+		&.level-3{
+		}
+	}
+
+	& .block-outer{
+		margin: auto;
+		padding: 5px 10px;
+	}
+	& .block-border{
+		padding: 0 10px;
+		border: 1px solid #ffffff;
+		.border-radius(10px);
+		&.selected{
+			border: 1px solid #2196F3;
+		}
+	}
+	& .block-content{
+		margin: 25px;
+	}
+	& .block-title{
+		float: left;
+		position: relative;
+		font-size: 14px;
+	}
+	// .resize-btn{
+	// 	width: 10px;
+	// 	height: 10px;
+	// 	background-color: green;
+	// 	position: absolute;
+	// 	bottom: 0px;
+	// 	right: 0px;
+	// 	cursor: se-resize;
+	// }
+}
+
+.x-form.x-theme-simple{
+	font-size: 12px;
+	color: #575765;
+	margin:0 auto;
+
+	& .x-form-title{
+		text-align: center;
+	}
+
+	& .x-table{
+		width: 100%;
+		border: 0;
+	}
+
+	& .x-col{
+		border: 0;
+	}
+
+	& .x-table-title{
+		background-color: #f4aaaa;
+		padding:10px;
+		margin:0;
+	}
+
+	& .x-table-field{
+		height: 20px;
+
+		&.required:before{
+			content: ' *';
+			color: red;
+		}
+
+		&.level-1{
+			background-color: #faeae6;
+		}
+		&.level-2{
+			border-right: 0px;
+		}
+		&.level-3{
+		}
+	}
+
+	& .x-block-outer{
+		margin: auto;
+		padding: 5px 10px;
+	}
+	& .x-block-border{
+		border: 1px solid #ffffff;
+		.border-radius(10px);
+		&.selected{
+			border: 1px solid #2196F3;
+		}
+	}
+	& .x-block-content{
+		margin: 20px 0px;
+		border-top: 1px solid #eeeeee;
+	}
+	& .x-block-title{
+		float: left;
+		position: relative;
+		left: 1em;
+		font-size: 14px;
+	}
+}
